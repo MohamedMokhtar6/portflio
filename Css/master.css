@@ -271,12 +271,12 @@ header nav ul li a:hover{
 .contact .container{}
 .contact .container .box{
     background-color: #d1d1d1;
-    margin-bottom: 20px;
     padding: 20px;
     width: 400px;
     text-align: center;
     color: teal;
     margin: 20px auto;
+    box-shadow: 0px 4px 11px #00000021;
 }
 .contact .container .box h2{
     margin: 10px 0;
@@ -312,5 +312,23 @@ footer{
     footer{
         font-size: 15px;
     }
+    .port .container .work .box  img{
+        height: 130px;
+    }
+    .port .container .work .box:hover{
+        transform: scale(1);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+    }
+    header .name h1{
+        font-size: 25px;
+    }
+    .title h1{
+        font-size: 40px;
+    }
+
+
 
 }
