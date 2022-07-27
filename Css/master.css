@@ -234,6 +234,7 @@ header nav ul li a:hover{
     margin-left: 20px;
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
 }
 .port .container .work{
     display: grid;
@@ -328,7 +329,4 @@ footer{
     .title h1{
         font-size: 40px;
     }
-
-
-
 }
